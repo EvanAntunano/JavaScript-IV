@@ -61,7 +61,7 @@ class Humanoid extends CharacterStats{
         super(_HumanoidAtt);
         this.team = _HumanoidAtt.team
         this.weapons = _HumanoidAtt.weapons
-        this.anguage = _HumanoidAtt.language
+        this.language = _HumanoidAtt.language
     }
     greet(){
         return `${this.name} offers a greeting in ${this.language}.`;   
